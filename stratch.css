@@ -1,0 +1,77 @@
+/* Assuming the 'element' is the HTML element you want to apply the background image to */
+
+
+img{
+        border: 2 px solid black;
+        padding: 2px;
+        width: 30%;
+}
+.centerme{
+    display: block;
+    margin: auto;
+}
+
+
+.common-footer{
+    z-index: 1;
+    position: fixed;
+    bottom: 0px;
+    display: block;
+    text-align: center;
+    background-color: pink;
+    color: lightgreen;
+}
+
+.header{
+    top: 0px;
+    z-index: 1;
+}
+.mainbody{
+    top: 400 px; 
+
+}
+.common-mainbody{
+    background-color: rgba(255, 192, 203, 0.939);
+    padding: 10px;
+    margin: 10px;
+    width: 50%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    float: right;
+}
+
+.common-header{
+    color: black;
+    font-size: x-large;
+
+}
+.stylediv1{
+    background-color: rgba(173, 216, 230, 0.838); 
+    padding: 8px;
+    margin: 8px;
+    width: 46%;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+    
+}
+.jumps{
+    background-color: blanchedalmond;
+    padding: 10px;
+    margin: 10px;
+    width: 23%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.websites{
+    color: black;
+    font-size: x-large;
+}
+.backtotop{
+    background-color: blanchedalmond;
+    padding:7px;
+    margin: 6px;
+    width: 10%;
+    color: black;
+    font-size: x-large;
+}
+.nav{
+    z-index: 1;
+}

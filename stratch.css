@@ -19,7 +19,8 @@ img{
     display: block;
     text-align: center;
     background-color: pink;
-    color: lightgreen;
+    color: black;
+    font-size: larger;
 }
 
 .header{
